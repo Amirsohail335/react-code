@@ -1,9 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Tweet from './components/Tweet';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <h1>Hello React</h1>
+      <Tweet/>
       
     </div>
   );
