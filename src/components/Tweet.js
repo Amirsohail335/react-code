@@ -7,11 +7,11 @@ import React from "react";
 //   )
 // }
 
-const Tweet = () => {
+const Tweet = (props) => {
   return (
     <div className="Tweet">
-      <h2>Name</h2>
-      <h3>This is actual</h3>
+      <h2>Name {props.author}</h2>
+      <h3>{props.message}</h3>
       <button>Delete</button>
       <button>Like</button>
     </div>
